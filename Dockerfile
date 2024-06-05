@@ -19,6 +19,6 @@ COPY --from=build /app/dist /usr/share/nginx/html
 # Personnalisation de la  configuration NGINX
 COPY nginx.conf /etc/nginx/nginx.conf
 
-# Exposition du port    80 pour NGINX
+# Exposition du port    80 pour NGINX vrai
 EXPOSE 81
 CMD ["nginx", "-g", "daemon off;"]
