@@ -1,0 +1,6 @@
+projectKey=petflix-sonar
+serverUrl=http://localhost:9000
+serverVersion=10.5.1.90531
+dashboardUrl=http://localhost:9000/dashboard?id=petflix-sonar
+ceTaskId=a4d37bea-f10b-4f71-ae2e-274048853ccc
+ceTaskUrl=http://localhost:9000/api/ce/task?id=a4d37bea-f10b-4f71-ae2e-274048853ccc
