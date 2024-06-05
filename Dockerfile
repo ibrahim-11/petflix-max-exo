@@ -16,7 +16,7 @@ FROM nginx:alpine
 RUN apk add --update nodejs npm
 # Copie des fichiers build de React dans le dossier de NGINX
 COPY --from=build /app/dist /usr/share/nginx/html
-# Personnalisation de la configuration NGINX
+# Personnalisation de la  configuration NGINX
 COPY nginx.conf /etc/nginx/nginx.conf
 
 # Exposition du port 80 pour NGINX
