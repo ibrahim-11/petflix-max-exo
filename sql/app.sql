@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `refuge` (
     nbr_place INTEGER,
     adresse_refuge VARCHAR(255),
     desc_refuge TEXT,
-    id_gerant INTEGER
+    id_gerant INTEGER 
 );
 
 CREATE TABLE IF NOT EXISTS `adoptant` (
